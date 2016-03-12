@@ -23,13 +23,13 @@ end
 if msg.text == "Zac" then
 	return "Nagaeedim"
 end
-if msg.text == "Sbss" then
+if msg.text == "aqa mp3" then
 	return "Is the best"
 end
-if msg.text == "Sbss" then
+if msg.text == "Aqa mp3" then
 	return "Is the best"
 end
-if msg.text == "SBSS" then
+if msg.text == "aqa mp3" then
 	return "Jnm?"
 end
 if msg.text == "bot" then
@@ -62,10 +62,10 @@ end
 if msg.text == "خدافظ" then
 	return "Bye Bye"
 end
-if msg.text == "Mr Ahs" then
+if msg.text == "mr.bngi" then
 	return "چیکار داری بابامو؟"
 end
-if msg.text == "@Mr_Ah_s" then
+if msg.text == "@mahdimp3" then
 	return "چیکار داری بابامو؟"
 end
 end
@@ -83,13 +83,13 @@ return {
 		"^[Bb]ye$",
 		"^?$",
 		"^[Ss]alam$",
-		"^@Mr_Ah_S$",
-		"^Mr Ahs$",
+		"^@mahdimp3$",
+		"^mr.bangi$",
 		"^خدافظ$",
 		"^بای$",
 		"^[Ss]lm$",
-		"^SBSS$",
-		"^[Ss]bss$",
+		"^aqa mp3$",
+		"^[aA]qa mp3$",
 		}, 
 	run = run,
     --privileged = true,
