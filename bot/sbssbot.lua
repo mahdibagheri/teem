@@ -237,8 +237,6 @@ function create_config( )
     "echo",
     "plugins",
     "time",
-    "lock_share",
-    "lock_media",
     "welcome"
     },
     sudo_users = {77750573,72916316,114507663},--Sudo users
