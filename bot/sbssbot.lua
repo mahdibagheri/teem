@@ -237,31 +237,20 @@ function create_config( )
     "echo",
     "plugins",
     "time",
+    "lock_share",
+    "lock_media",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {77750573,72916316,114507663},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V2 Beta
-    An Advanced Anti Spam Bot Forked On TeleSeed
-    
-    Develpoed By:
-    @Mr_Ah_S
-    Manager:
-    @amiirdada
-    Founder:
-    @AmirQuick
-    
-    Special Thank To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
-    Powered By @Sbss_Team
-    
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    about_text = [[تیم ما بهترین و با کیفیت ترین 
+    خدمات رو به شما میدهد 
+    برای گرفتن گروه به یکی از سه آیدی زیر پیام دهید 
+    @mahdimp3 سودو و برنامه نویس بات
+    @mr_mh85 سودو و کارای سرور بات
+    @Xxhabib_Mafiam_besikxX سودو و کارای فنی بات
+    تیم ما در هر لحظه هر زمان آماده پاسخ گویی به شماست
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -339,7 +328,11 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+ برای گرفتن گروه به یکی از سه آیدی زیر پیام دهید 
+    @mahdimp3  سودو و برنامه نویس بات
+    @mr_mh85   سودو و کارای سرور بات
+    @Xxhabib_Mafiam_besikxX  سودو و کارای فنی بات
+    تیم ما در هر لحظه هر زمان آماده پاسخ گویی به شماست
 ]]
   }
   serialize_to_file(config, './data/config.lua')
